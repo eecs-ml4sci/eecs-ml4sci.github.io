@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ML4SCI — EECS 195 / 221</title>
+  <meta name="description" content="Machine Learning for Science — EECS 195 / 221">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <div class="eyebrow">EECS 195 / EECS 221</div>
+      <h1>ML4SCI: Machine Learning for Science</h1>
+      <p class="term">University of California, Irvine · <span class="placeholder">Quarter / Year TBD</span></p>
+      <nav>
+        <a href="#details">Course details</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#faq">Course FAQs</a>
+      </nav>
+    </header>
+
+    <section id="details">
+      <h2>Course description</h2>
+      <p>
+        What makes machine learning different when the goal is not simply to predict data, but to understand, model, and discover the behavior of the natural world? This course provides a broad introduction to machine learning for science, an emerging area at the intersection of machine learning, scientific computing, and the physical sciences. Scientific problems bring distinctive challenges—including structured data, physical laws, multiscale dynamics, uncertainty, and heterogeneous systems—that require us to rethink the representations, inductive biases, objectives, and evaluation criteria used in conventional machine learning. The course develops the foundations needed to understand these challenges and surveys modern approaches for learning scientific systems, from physics-informed models and learned operators to generative models and large-scale scientific foundation models. Throughout, we will examine not only how to build increasingly capable models, but also how to make them reliable, scalable, and ultimately useful for scientific understanding and discovery.
+      </p>
+
+      <h3>Staff</h3>
+      <div class="staff-grid">
+        <article class="staff-card">
+          <div class="avatar">AM</div>
+          <div>
+            <strong>Aparna Mowli</strong>
+            <span>Instructor</span>
+            <span class="muted">University of California, Irvine</span>
+          </div>
+        </article>
+        <article class="staff-card placeholder-card">
+          <div class="avatar">TA</div>
+          <div>
+            <strong>Teaching staff</strong>
+            <span>Teaching Assistant(s)</span>
+            <span class="muted">To be announced</span>
+          </div>
+        </article>
+      </div>
+      <p class="contact">Course contact: <span class="placeholder">course email / Canvas announcement channel TBD</span></p>
+
+      <h3>Logistics</h3>
+      <ul>
+        <li><strong>Time:</strong> <span class="placeholder">TBD</span></li>
+        <li><strong>Location:</strong> <span class="placeholder">TBD</span></li>
+        <li><strong>Office hours:</strong> <span class="placeholder">TBD</span></li>
+        <li><strong>Course numbers:</strong> EECS 195 (undergraduate) and EECS 221 (graduate)</li>
+      </ul>
+
+      <h3>Coursework</h3>
+      <p>
+        The course combines lectures, hands-on computational exercises, and an open-ended scientific machine learning project. Students will work with scientific datasets and physical systems, evaluate models using criteria that go beyond standard predictive accuracy, and develop a final project that applies or critically studies modern ML methods in a scientific domain.
+      </p>
+      <ul>
+        <li><strong>Participation and preparation:</strong> engage with lectures, readings, and discussions.</li>
+        <li><strong>Hands-on work:</strong> notebook-based exercises and computational experiments.</li>
+        <li><strong>Final project:</strong> an original investigation, replication, extension, or comparative study in machine learning for science.</li>
+      </ul>
+      <p class="grad-note"><strong>Graduate enrollment:</strong> EECS 221 students will complete additional depth or research-oriented requirements appropriate to graduate credit.</p>
+
+      <h3>Syllabus</h3>
+      <p><span class="placeholder">Full syllabus and grading policy will be posted here.</span></p>
+    </section>
+
+    <hr>
+
+    <section id="schedule">
+      <h2>Schedule</h2>
+      <p class="note">Note: the schedule is subject to change. Readings and materials will be added as the course develops.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Week</th><th>Lesson</th><th>Focus</th><th>Readings</th><th>Materials</th></tr></thead>
+          <tbody><tr>
+<td>Week 1</td><td><strong>Introduction and SciML landscape</strong></td><td>Motivation; forward and inverse problems; what changes when ML is used to model the natural world.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 2</td><td><strong>Review of ML foundations for scientific data</strong></td><td>Shared ML vocabulary for prediction, representation learning, and scientific datasets.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 3</td><td><strong>PDE and numerical fundamentals</strong></td><td>The mathematical and numerical foundations underlying many scientific learning problems.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 4</td><td><strong>Data representations for scientific ML</strong></td><td>Grids, fields, meshes, particles, graphs, and irregular observations.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 5</td><td><strong>Symmetry, invariance, and equivariance</strong></td><td>Scientific inductive biases and the design principles underlying equivariant architectures.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 6</td><td><strong>CNN and U-Net architectures for spatial fields</strong></td><td>Learning structured representations and mappings on regular spatial domains.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 7</td><td><strong>Autoregressive rollout models</strong></td><td>Extending spatial predictors through time and confronting error accumulation.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 8</td><td><strong>Temporal modeling: recurrent models and neural ODEs</strong></td><td>Learning dynamics through latent state, recurrence, and continuous-time models.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 9</td><td><strong>Temporal modeling: transformers</strong></td><td>Attention-based approaches to expressive long-range temporal modeling.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 10</td><td><strong>Evaluation of scientific ML</strong></td><td>Accuracy, spectra, stability, conservation, long-horizon behavior, and scientific utility.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 11</td><td><strong>Operator learning</strong></td><td>Learning mappings between functions and reframing scientific prediction beyond step-by-step simulation.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 12</td><td><strong>GNNs and mesh-based learning</strong></td><td>Learning on irregular domains and leveraging graph-based representations.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 13</td><td><strong>PINNs</strong></td><td>Residual-based physics-informed learning and its strengths and limitations.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 14</td><td><strong>Physics-constrained, hybrid, and inverse learning</strong></td><td>Hard constraints, differentiable simulation, hybrid models, and inverse problems.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 15</td><td><strong>Generative and probabilistic models for science</strong></td><td>Moving from single predictions to distributions over scientific states and outcomes.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 16</td><td><strong>Uncertainty quantification and calibration</strong></td><td>Assessing confidence, calibration, and reliability for scientific decision-making.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 17</td><td><strong>Scaling laws for scientific ML</strong></td><td>Understanding how model capability changes with data, compute, and model scale.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 18</td><td><strong>Mixture-of-experts and scientific foundation models</strong></td><td>Large-scale models for heterogeneous physical systems and multiple scientific regimes.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 19</td><td><strong>Mechanistic interpretability for science</strong></td><td>Interrogating learned representations and mechanisms in large scientific models.</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td>Week 20</td><td><strong>Buffer / project studio / synthesis</strong></td><td>Project presentations, catch-up, and synthesis across the course.</td><td>—</td><td>—</td>
+</tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="faq">
+      <h2>Frequently asked questions</h2>
+
+      <details open>
+        <summary>Who is this course for?</summary>
+        <p>The course is intended for advanced undergraduate and graduate students interested in applying modern machine learning to scientific and engineering problems. The undergraduate and graduate offerings share a common intellectual core, with additional expectations for graduate enrollment.</p>
+      </details>
+
+      <details>
+        <summary>What background is expected?</summary>
+        <p>Students should be comfortable with core machine learning concepts and programming. Familiarity with linear algebra, probability, and differential equations is helpful. The course will develop the scientific computing and PDE concepts needed to motivate the methods we study.</p>
+      </details>
+
+      <details>
+        <summary>Is this a course about AI agents or LLMs for science?</summary>
+        <p>Not primarily. The course focuses on the machine learning foundations of scientific modeling: representations, inductive biases, dynamics, operators, physical constraints, uncertainty, scaling, and interpretability. Large models and scientific foundation models appear later as one part of the broader landscape.</p>
+      </details>
+
+      <details>
+        <summary>Will the course be useful if I work outside physics?</summary>
+        <p>Yes. Although PDEs and physical fields provide important running examples, the principles extend to many scientific domains, including engineering, climate, materials, biology, chemistry, and other settings involving structured data, governing constraints, dynamics, and uncertainty.</p>
+      </details>
+
+      <details>
+        <summary>What will the final project look like?</summary>
+        <p>Students will formulate and investigate a substantive question in machine learning for science. Projects may involve reproducing and critically evaluating a recent paper, extending an existing method, comparing modeling approaches, or applying modern methods to a scientific dataset or simulator.</p>
+      </details>
+    </section>
+
+    <footer>
+      <p><strong>ML4SCI</strong> · EECS 195 / EECS 221 · Machine Learning for Science</p>
+      <p class="muted">Website content and logistics are a living document.</p>
+    </footer>
+  </main>
+</body>
+</html>
