@@ -66,6 +66,14 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 42px 0; }
 .table-wrap { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; font-size: .93rem; min-width: 800px; }
 th, td { text-align: left; vertical-align: top; padding: 11px 12px; border-bottom: 1px solid var(--line); }
+.part-row td {
+  padding: 18px 12px 8px;
+  border-bottom: 1px solid var(--line);
+  background: var(--soft);
+  color: var(--accent);
+  font-family: Inter, Arial, sans-serif;
+  font-size: 0.9rem;
+}
 th {
   font-family: Inter, Arial, sans-serif; font-size: .78rem; text-transform: uppercase;
   letter-spacing: .04em; color: var(--muted); background: var(--soft);
